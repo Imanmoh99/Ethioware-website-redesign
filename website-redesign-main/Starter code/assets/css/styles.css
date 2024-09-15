@@ -1355,6 +1355,9 @@ body.dark-theme .footer-copyright {
     transform: translateX(-50%);
   }
 }
+
+/* style for publications page*/
+
 .publication {
   display: flex;
   justify-content: space-between;
@@ -1369,14 +1372,14 @@ body.dark-theme .footer-copyright {
 }
 
 .leftbar h1 {
-  font-family: var(--body-font); /* Use Poppins defined in the first file */
+  font-family: var(--body-font); 
   font-weight: normal;
   font-size: 70px;
   margin-bottom: 10px;
 }
 
 .leftbar h3 {
-  font-family: var(--body-font); /* Consistent font */
+  font-family: var(--body-font);
   font-weight: lighter;
   font-size: 20px;
   margin-bottom: 20px;
@@ -1388,9 +1391,9 @@ body.dark-theme .footer-copyright {
 }
 
 .buttons button {
-  font-family: var(--body-font); /* Poppins for buttons */
-  background-color: var(--first-color); /* Use variable for consistency */
-  color: var(--body-color); /* White from first CSS */
+  font-family: var(--body-font); 
+  background-color: var(--first-color); 
+  color: var(--body-color); 
   padding: 15px 24px;
   border: none;
   border-radius: 8px;
@@ -1399,7 +1402,7 @@ body.dark-theme .footer-copyright {
 }
 
 .buttons button:hover {
-  background-color: var(--first-color-light); /* Use light version of first color */
+  background-color: var(--first-color-light); 
 }
 
 .rightbar {
@@ -1481,7 +1484,7 @@ body.dark-theme .footer-copyright {
   position: absolute;
   top: 150%;
   transform: translateY(-50%);
-  background-color: var(--body-color); /* Use body color */
+  background-color: var(--body-color); 
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   z-index: 100;
@@ -1533,4 +1536,6 @@ body.dark-theme .footer-copyright {
   border-radius: 5px;
   padding: 5px 10px;
 }
-
+.abstract i{
+  align-items: center;
+}
